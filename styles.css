@@ -165,4 +165,53 @@ body {
   #searchCollapse {
     transition-duration:0s; /* Cambia 0.1s al tiempo que prefieras */
   }
+ 
+
+  .photo-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px; /*distancia de cada container*/
+}
+
+.photo {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+footer {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    padding: 20px 0;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-section {
+    padding: 5px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 5px 0;
+}
+  
   
