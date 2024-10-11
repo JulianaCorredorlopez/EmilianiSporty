@@ -8,4 +8,3 @@ registrerBtn.addEventListener('click',() =>{
 loginBtn.addEventListener('click',() =>{
     container.classList.remove("active");
 });
-<link rel="stylesheet" href="login.css">

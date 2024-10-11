@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="metododepago.css">
+    <title>Método de Pago</title>
+</head>
+<body>
+    
+    <div class="pago">
+        <h2>Método de Pago</h2>
+        <form id="form-pago">
+            <div class="campo">
+                <label for="nombre">Nombre del Titular</label>
+                <input type="text" id="nombre" required>
+            </div>
+            <div class="campo">
+                <label for="numero-tarjeta">Número de Tarjeta</label>
+                <input type="text" id="numero-tarjeta" required>
+            </div>
+            <div class="campo">
+                <label for="fecha-expiracion">Fecha de Expiración (MM/AA)</label>
+                <input type="text" id="fecha-expiracion" placeholder="MM/AA" required>
+            </div>
+            <button type="submit" class="btn-pagar">Pagar</button>
+        </form>
+    </div>
+</body>
+</html>
