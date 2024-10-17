@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    position: relative;
+}
+
+.pago {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semitransparente */
+    border-radius: 0 10px 10px 0;
+    box-shadow: -2px 0 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    overflow-y: auto; /* Permite el desplazamiento si hay muchos campos */
+    z-index: 1000;
+}
+
+h2 {
+    text-align: center;
+    color: #92b1f5;
+}
+
+.campo {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+.btn-pagar {
+    width: 100%;
+    padding: 10px;
+    background-color: #92caf8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-pagar:hover {
+    background-color: #79a4f3;
+}

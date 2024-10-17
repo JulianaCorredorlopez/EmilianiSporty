@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    position: relative;
+}
+
+.pagina-principal {
+    padding: 20px;
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+}
+
+.carrito {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semitransparente */
+    border-radius: 0 10px 10px 0;
+    box-shadow: -2px 0 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    overflow-y: auto; /* Permite el desplazamiento si hay muchos productos */
+    z-index: 1000;
+}
+
+h2 {
+    text-align: center;
+    color: #88a7fd;
+}
+
+.producto {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.producto img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+.detalles {
+    flex-grow: 1;
+}
+
+.btn-eliminar {
+    background-color: #71afff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-eliminar:hover {
+    background-color: #6b6666;
+}
+
+.total {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 2px solid #93d8ff;
+}
+
+.btn-pagar {
+    background-color: #72bedb;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-pagar:hover {
+    background-color: #388E3C;
+}
