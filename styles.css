@@ -8,7 +8,7 @@
 
 body {
     margin: 0;
-    background-color: #fffcfc; /* Color del pie de página */
+    background-color: #fffcfcce; /* Color del pie de página */
     color: rgb(0, 0, 0);
     font-size: 17px;
     font-family: 'Goldman', sans-serif; /* Fuente aplicada a todo el cuerpo */
@@ -23,7 +23,7 @@ h1 {
 }
 
 header {
-    background-color: #ffffff; /* Color del menú */
+    background-color: #ff0000; /* Color del menú */
     color: rgb(8, 8, 8);
     padding: 10px;
 }
@@ -76,7 +76,7 @@ header {
 
 .footer {
     background-color: #000000;
-    color: #ffffff;
+    color: #000000;
     padding: 10px 0;
     position: fixed;
     width: 100%;
@@ -256,6 +256,43 @@ a {
     font-size: 22px;
     transition: transform 0.3s ease-in-out;
 }
+.racket-page-nosotros {
+    padding: 20px; /* Espaciado interno */
+    background-color: #f9f9f9; /* Color de fondo claro */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 800px; /* Ancho máximo */
+    margin: 20px auto; /* Centrado en la página */
+}
+
+h2 {
+    text-align: center; /* Centrar el título */
+    color: #000000ba; /* Color verde */
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+.racket-page-nosotros .IMAGENES {
+    display: flex; /* Usar flexbox para alinear imágenes */
+    justify-content: center; /* Centrar las imágenes */
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+.racket-page-nosotros img {
+    width: 100px; /* Ancho fijo para las imágenes */
+    height: auto; /* Mantener la proporción */
+    margin: 0 10px; /* Espaciado entre imágenes */
+}
+
+h3 {
+    color: #333; /* Color del encabezado */
+    margin-top: 20px; /* Espaciado superior */
+}
+
+p {
+    color: #666; /* Color del texto */
+    line-height: 1.6; /* Altura de línea para mejor legibilidad */
+    margin-bottom: 20px; /* Espaciado inferior */
+}
 
 .botonMas{
     background-color: rgb(99, 99, 99);
@@ -265,7 +302,7 @@ a {
 }
 
 .separador{
-    background-color: #A8D0FF;
+    background-color: #0077ff22;
     display: flex;
     align-items: center;
     justify-content: center;
