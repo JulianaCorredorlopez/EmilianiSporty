@@ -258,7 +258,7 @@ a {
 }
 .racket-page-nosotros {
     padding: 20px; /* Espaciado interno */
-    background-color: #efecec; /* Color de fondo claro */
+    background-color: #f8f3f3; /* Color de fondo claro */
     border-radius: 0; /* Sin bordes redondeados para que ocupe todo el ancho */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
     width: 100%; /* Ancho completo */

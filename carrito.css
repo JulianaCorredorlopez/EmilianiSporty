@@ -5,7 +5,6 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa;
     position: relative;
 }
 
@@ -20,7 +19,7 @@ body {
     right: 0;
     width: 300px;
     height: 100vh; /* Ocupa toda la altura de la pantalla */
-    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semitransparente */
+    background-color: #ffffff; /* Fondo blanco*/
     border-radius: 0 10px 10px 0;
     box-shadow: -2px 0 20px rgba(0, 0, 0, 0.2);
     padding: 20px;
