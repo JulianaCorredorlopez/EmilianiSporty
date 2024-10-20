@@ -29,7 +29,7 @@ body {
 
 h2 {
     text-align: center;
-    color: #88a7fd;
+    color: #000000;
 }
 
 .producto {
@@ -54,7 +54,7 @@ h2 {
 }
 
 .btn-eliminar {
-    background-color: #71afff;
+    background-color: #77797c;
     color: white;
     border: none;
     padding: 5px 10px;
@@ -64,18 +64,18 @@ h2 {
 }
 
 .btn-eliminar:hover {
-    background-color: #6b6666;
+    background-color: #252525;
 }
 
 .total {
     text-align: center;
     margin-top: 20px;
     padding: 10px;
-    border-top: 2px solid #93d8ff;
+    border-top: 2px solid #7d8285;
 }
 
 .btn-pagar {
-    background-color: #72bedb;
+    background-color: #747575;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -85,5 +85,5 @@ h2 {
 }
 
 .btn-pagar:hover {
-    background-color: #388E3C;
+    background-color: #070707;
 }

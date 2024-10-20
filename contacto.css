@@ -10,7 +10,7 @@ body {
     display:flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(231, 231, 231, 0.8),rgba(155, 181, 236, 0.8));
+    background: linear-gradient(rgba(243, 243, 243, 0.8),rgba(155, 181, 236, 0.8));
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -46,7 +46,7 @@ body {
 }
 
 .data > p > i {
-    color:rgb(147, 173, 245);
+    color:rgb(19, 75, 230);
     margin-right: 10px;
     font-size:25px;
 }
@@ -88,7 +88,7 @@ form {
 
 .input-box > input:focus,
 .input-box > textarea:focus {
-    border-bottom:3px solid rgb(155, 195, 255);
+    border-bottom:3px solid rgb(101, 137, 255); /*casillas de contenido*/
     animation: shake .2s;
 }
 
@@ -111,7 +111,7 @@ form {
     top:50%;
     transform: translateY(-50%);
     right: 10px;
-    color:rgba(255, 255, 255, 0.3);
+    color:rgba(72, 75, 243, 0.3);
     transition: .3s;
 }
 
@@ -133,7 +133,7 @@ form > button {
 
 form > button:hover,
 .links > a:hover {
-    background: rgb(255, 255, 255); 
+    background: rgb(88, 103, 192); 
 }
 
 @keyframes shake { 

@@ -177,7 +177,7 @@ header {
 }
 
 .photo:hover p, .photo:hover img{
-    transform: scale(1.5);
+    transform: scale(1.2);/* zoom de la imagen*/
     font-size: 17px;
     font-weight: bold;
 }
