@@ -230,3 +230,31 @@ footer {
     bottom: 0; /* Alinear al fondo */
     width: 100%; /* Ancho completo */
 }
+.categories-header {
+    text-align: center; /* Centrar el encabezado */
+    color: #ffffffb1; /* Color verde */
+    margin-bottom: 2px; /* Espaciado inferior */
+    font-size: 24px; /* Tamaño de fuente */
+}
+
+.categories-container {
+    display: flex; /* Usar flexbox para alinear los botones en una hilera */
+    justify-content: center; /* Centrar los botones horizontalmente */
+    flex-wrap: wrap; /* Permitir que los botones se envuelvan si es necesario */
+}
+
+.category-button {
+    background-color: #ffffff; /* Color de fondo del botón */
+    color: rgb(0, 0, 0); /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 15px; /* Espaciado interno */
+    margin: 25px; /* Espaciado entre botones */
+    font-size: 14px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+    transition: background-color 0.4s ease; /* Transición suave para el color de fondo */
+}
+
+.category-button:hover {
+    background-color: #3636360c; /* Color más oscuro al pasar el ratón */
+}
