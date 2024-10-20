@@ -23,7 +23,7 @@ h1 {
 }
 
 header {
-    background-color: #ff0000; /* Color del menú */
+    background-color: #bbb9b4; /* Color del menú */
     color: rgb(8, 8, 8);
     padding: 10px;
 }
@@ -145,7 +145,7 @@ header {
     100% { margin-left: 0%; }
 }
 
-@media(max-width: 991px) {
+@media(max-width: 990px) {
     /* Añade estilos específicos para pantallas más pequeñas si es necesario */
 }
 
@@ -161,7 +161,7 @@ header {
 
 .photo-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 20px; /* Distancia entre cada contenedor */
 }
 
@@ -177,7 +177,7 @@ header {
 }
 
 .photo:hover p, .photo:hover img{
-    transform: scale(1.18);
+    transform: scale(1.5);
     font-size: 17px;
     font-weight: bold;
 }
@@ -223,7 +223,7 @@ a {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 13000px;
     margin: 0 auto;
     text-align: center;
 }
@@ -234,7 +234,7 @@ a {
 }
 
 .h1 {
-    margin-bottom: 20px;
+    margin-bottom: 2px;
 }
 
 .links{
@@ -258,54 +258,63 @@ a {
 }
 .racket-page-nosotros {
     padding: 20px; /* Espaciado interno */
-    background-color: #f9f9f9; /* Color de fondo claro */
-    border-radius: 8px; /* Bordes redondeados */
+    background-color: #efecec; /* Color de fondo claro */
+    border-radius: 0; /* Sin bordes redondeados para que ocupe todo el ancho */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    max-width: 800px; /* Ancho máximo */
-    margin: 20px auto; /* Centrado en la página */
+    width: 100%; /* Ancho completo */
+    margin: 15px 0; /* Espaciado superior e inferior */
 }
 
 h2 {
-    text-align: center; /* Centrar el título */
-    color: #000000ba; /* Color verde */
+    text-align: center; /* Alinear el título a la izquierda */
+    color: #0a0a0a; /* Color verde */
     margin-bottom: 20px; /* Espaciado inferior */
 }
 
 .racket-page-nosotros .IMAGENES {
     display: flex; /* Usar flexbox para alinear imágenes */
-    justify-content: center; /* Centrar las imágenes */
+    justify-content: center; /* Alinear las imágenes a la izquierda */
     margin-bottom: 20px; /* Espaciado inferior */
 }
 
 .racket-page-nosotros img {
-    width: 100px; /* Ancho fijo para las imágenes */
+    width: 120px; /* Ancho fijo para las imágenes */
     height: auto; /* Mantener la proporción */
-    margin: 0 10px; /* Espaciado entre imágenes */
+    margin: 0 35px; /* Espaciado entre imágenes */
 }
 
 h3 {
-    color: #333; /* Color del encabezado */
+    color: #1b1b1b; /* Color del encabezado */
     margin-top: 20px; /* Espaciado superior */
+    text-align: left; /* Alinear el encabezado a la izquierda */
 }
 
 p {
     color: #666; /* Color del texto */
     line-height: 1.6; /* Altura de línea para mejor legibilidad */
     margin-bottom: 20px; /* Espaciado inferior */
-}
-
+    text-align: left; /* Alinear el texto a la izquierda */
+}                                                                                                            
 .botonMas{
-    background-color: rgb(99, 99, 99);
+    background-color: rgb(203, 196, 196);
     font-weight: bold;
     color: rgb(255, 255, 255);
     margin-top: 2px; 
 }
 
 .separador{
-    background-color: #0077ff22;
+    background-color: #0000fb21;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
 }
-
+footer {
+    background-color: #dfdada; /* Color de fondo oscuro */
+    color: rgb(0, 0, 0); /* Color del texto */
+    text-align: center; /* Centrar el texto */
+    padding: 10px 0; /* Espaciado superior e inferior */
+    position: relative; /* Posición relativa para un mejor control */
+    bottom: 0; /* Alinear al fondo */
+    width: 100%; /* Ancho completo */
+}

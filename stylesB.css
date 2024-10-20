@@ -221,3 +221,12 @@ a {
     text-align: center;
     padding: 5px 0;
 }
+footer {
+    background-color: #dfdada; /* Color de fondo oscuro */
+    color: rgb(0, 0, 0); /* Color del texto */
+    text-align: center; /* Centrar el texto */
+    padding: 10px 0; /* Espaciado superior e inferior */
+    position: relative; /* Posición relativa para un mejor control */
+    bottom: 0; /* Alinear al fondo */
+    width: 100%; /* Ancho completo */
+}
