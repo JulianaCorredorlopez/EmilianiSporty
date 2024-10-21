@@ -81,13 +81,13 @@ header {
     position: fixed;
     width: 100%;
     bottom: 0;
-    text-align: left;
+    text-align:center ;
 }
 
 .footer-content {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Alineación a la izquierda */
+    align-items:center ; /* Alineación a la izquierda */
 }
 
 .footer-title {
@@ -152,7 +152,7 @@ header {
 #demo .carousel-inner img {
     height: 400px;
     width: 1200px;
-    object-fit: cover; /* Para que la imagen se ajuste sin deformarse */
+
 }
 
 #searchCollapse {
@@ -177,7 +177,7 @@ header {
 }
 
 .photo:hover p, .photo:hover img{
-    transform: scale(1.2);/* zoom de la imagen*/
+    transform: scale(1.1);/* zoom de la imagen*/
     font-size: 17px;
     font-weight: bold;
 }
@@ -187,7 +187,7 @@ header {
     height: 50%;
     display: block;
     margin: 0;
-    transition: transform 0.3s ease-in-out;
+    transition:  0.3s ease-in-out;
     z-index: 1;
 }
 
@@ -202,9 +202,15 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
-
+.item {
+    
+    display: flex; /* Usar flexbox dentro del item */
+    align-items: center; /* Centrar contenido verticalmente */
+    justify-content: center; /* Centrar contenido horizontalmente */
+    height: 150px; /* Altura fija para todos los contenedores */
+}
 .footer-section {
-    padding: 5px;
+    padding: 10px;
 }
 
 ul {
@@ -223,11 +229,15 @@ a {
 }
 
 .container {
-    max-width: 13000px;
+    max-width: 1300px;
     margin: 0 auto;
     text-align: center;
 }
-
+.photo-item img {
+    max-width: 100%; /* Hacer que la imagen sea responsiva */
+    height: ; /* Mantener la proporción de la imagen */
+    height: 150px; /* Altura fija para todos los contenedores */
+}
 .photo-container {
     display: flex;
     justify-content: center;
@@ -290,10 +300,10 @@ h3 {
 }
 
 p {
-    color: #666; /* Color del texto */
+    color: #000000; /* Color del texto */
     line-height: 1.6; /* Altura de línea para mejor legibilidad */
     margin-bottom: 20px; /* Espaciado inferior */
-    text-align: left; /* Alinear el texto a la izquierda */
+    text-align:center; /* Alinear el texto a la izquierda */
 }                                                                                                            
 .botonMas{
     background-color: rgb(203, 196, 196);
